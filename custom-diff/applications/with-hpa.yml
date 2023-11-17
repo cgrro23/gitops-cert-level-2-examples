@@ -20,8 +20,8 @@ spec:
   # Sync policy
   syncPolicy:
     syncOptions:
-      - CreateNamespace=true 
-ignoreDifferences:
+      - CreateNamespace=true
+  ignoreDifferences:
   - group: apps
     kind: Deployment
     jsonPointers:
