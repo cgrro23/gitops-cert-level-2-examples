@@ -28,8 +28,8 @@ spec:
     - /metadata/annotations/creation      
   ignoreDifferences:
   - group: apps
-    kind: Deployment
+    kind: Secret
     jsonPointers:
-    - /spec/replicas      
+    - /data/my-password      
         
    
